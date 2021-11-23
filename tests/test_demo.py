@@ -15,13 +15,3 @@ class TestDemo(BaseTest):
         self.driver.execute_script('mobile: shell', {"command": 'input keyevent 4'})
         self.investorai.search_and_result.input_search("Tesla Inc")
         logger.info(self.investorai.search_and_result.get_result())
-
-
-
-
-
-(x=346, y=585).perform()
-# inputB = WebDriverWait(driver, 30).until(
-#     EC.element_to_be_clickable((MobileBy.ID, "com.bridgeweave.investorai:id/tvPrice")))
-# print(inputB.text)
-# driver.quit()
